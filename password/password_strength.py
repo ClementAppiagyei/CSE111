@@ -7,7 +7,7 @@ SPECIAL = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-", "=", "+",
 
 # File names
 Dictionary_file = "wordlist.txt"
-# Top_passwords_file = "toppasswords.txt"
+Top_passwords_file = "toppasswords.txt"
 
 # The main function
 def main():
@@ -79,7 +79,7 @@ def word_complexity(word):
     return complexity
 
 def password_strength(password, min_length=10, strong_length=16):
-    if word_in_file(password, Dictionary_file, True):
+    if word_in_file(password, Dictionary_file) or word_in_file(password, Top_passwords_file):
         print("Password is a commonly used password and is not secure.")
         return 0
 
