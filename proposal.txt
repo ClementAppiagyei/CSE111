@@ -1,0 +1,66 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+
+    Student Budget Tracker Program
+
+2. What real-world problem will your program address or help to solve?
+
+    Many students have difficulty managing their money and keeping track of their expenses.
+    This program will help students record their income and expenses, calculate their total spending, and show their remaining balance.
+    This helps students understand where their money is going and manage their budget better.
+
+3. What will you learn from developing this program?
+
+    I will learn:
+    How to read and write CSV files
+    How to organize data using lists and dictionaries
+    How to create reusable functions
+    How to perform calculations in Python
+    How to write test functions using pytest
+
+4. What Python modules will your program use?
+
+    csv
+    datetime
+    pytest
+    math
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+5. List the names of functions you will need?
+
+    read_transactions()
+    calculate_total_income()
+    calculate_total_expenses()
+    calculate_balance()
+    add_transaction()
+    main()
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+6. List the names of the test functions you will write.
+
+    test_calculate_total_income()
+    test_calculate_total_expenses()
+    test_calculate_balance()
+    test_read_transactions()
